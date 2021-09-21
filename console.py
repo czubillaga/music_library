@@ -15,7 +15,7 @@ artist_repository.save(artist2)
 
 album1 = Album('Blonde', artist1, 2016, 'Pop')
 album2 = Album('Endless', artist1, 2016, 'Pop')
-album3 = Album('Revolver',artist2, 1966, 'Rock')
+album3 = Album('Revolver',artist2, 1965, 'Rock')
 
 
 
@@ -30,5 +30,5 @@ album_repository.save(album3)
 artist1.name = "Christopher Breaux"
 artist_repository.update(artist1)
 
-album3.year = 1965
+album3.year = 1966
 album_repository.update(album3)
